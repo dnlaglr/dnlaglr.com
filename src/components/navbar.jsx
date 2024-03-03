@@ -5,7 +5,7 @@ import ResumePDF from '../assets/Daniel_Aguilar_Resume.pdf'
 
 function Navbar() {
   return (
-    <nav className='flex justify-center items-center w-screen bg-dark px-4 py-2'>
+    <nav className='flex justify-center items-center w-screen bg-dark px-4 py-2 fixed top-0'>
       <div className='flex flex-row justify-center items-center w-[90%] lg:w-[80%]'>
         <a href='/' className='text-xl text-accent font-bold mr-4'>Daniel Aguilar</a>
         <div className='flex flex-1 flex-row justify-between items-center'>
